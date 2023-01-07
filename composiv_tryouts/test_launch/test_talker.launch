@@ -1,0 +1,4 @@
+<launch>
+<node name="composiv_talker_node" pkg="composiv_tryouts" type="composiv_talker.py"/>
+<test test-name="test-talker" pkg="composiv_tryouts" type="composiv_test_talker.py"/>
+</launch>
