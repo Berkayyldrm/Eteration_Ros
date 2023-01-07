@@ -10,6 +10,5 @@ def listener():
     rospy.Subscriber('Topic', String, callback)    
     rospy.spin()
 
-
 if __name__ == '__main__':
     listener()
